@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CompuPaunero – Reparación y Venta de PCs en Palermo, CABA</title>
+  <meta name="description" content="Reparación de computadoras, venta de componentes y equipos en Palermo, CABA. Diagnóstico gratuito y garantía en todos los trabajos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__contact">
+        <a href="tel:+5491151391997">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.07 2.18a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          +54 9 11 5139-1997
+        </a>
+        <a href="mailto:info@compupaunero.com.ar">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          info@compupaunero.com.ar
+        </a>
+        <span class="topbar__hours">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          Lun–Vie 10–20hs · Sáb 10–13hs
+        </span>
+      </div>
+      <div class="topbar__social">
+        <a href="https://facebook.com/compupaunero" aria-label="Facebook" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://instagram.com/compupaunero" aria-label="Instagram" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://wa.me/5491151391997" aria-label="WhatsApp" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo">
+        <img src="assets/logo.png" alt="CompuPaunero" class="logo-img" />
+      </a>
+      <nav class="navbar__menu" id="navMenu">
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Información</a>
+      </nav>
+      <button class="navbar__burger" id="burgerBtn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__grid-bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__content" data-animate>
+        <div class="hero__badge">
+          <span class="badge badge--green">✓ Diagnóstico sin cargo</span>
+        </div>
+        <h1 class="hero__title">Tu PC en problemas?<br><span class="text-primary">La reparamos rápido</span><br>y con garantía.</h1>
+        <p class="hero__subtitle">Reparación de computadoras, venta de componentes y equipos en Palermo, CABA. Más de 10 años de experiencia técnica.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20un%20presupuesto" class="btn btn--primary btn--lg" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedí tu presupuesto
+          </a>
+          <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+        </div>
+      </div>
+      <div class="hero__visual" data-animate>
+        <div class="hero__img-frame">
+          <img src="assets/hero-pc.jpg" alt="Técnico reparando una PC" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="hero__img-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--primary-container)"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 7h.01M7 10h5M7 13h3"/></svg>
+          </div>
+          <div class="hero__glow"></div>
+        </div>
+        <div class="hero__stat hero__stat--1">
+          <span class="stat-num">+10</span>
+          <span class="stat-label">años de experiencia</span>
+        </div>
+        <div class="hero__stat hero__stat--2">
+          <span class="stat-num">✓</span>
+          <span class="stat-label">Garantía por escrito</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container trust-bar__inner">
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Garantía en todos los trabajos</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+        <span>Diagnóstico el mismo día</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22,4 12,14.01 9,11.01"/></svg>
+        <span>Técnicos certificados</span>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        <span>Presupuesto sin cargo</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Lo que hacemos</p>
+        <h2 class="section-title">¿Qué podemos hacer por vos?</h2>
+        <p class="section-subtitle">Desde una reparación urgente hasta el armado de tu PC soñada. Trabajamos rápido y con honestidad.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Reparación de PC y Notebooks</h3>
+          <p>Diagnóstico, limpieza, cambio de pasta térmica, reparación de hardware y software. Cualquier marca.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20reparar%20mi%20PC" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 6,2 18,2 18,9"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          </div>
+          <h3>Reparación de Impresoras</h3>
+          <p>Atascos, cabezales, tinta, firmware y todo tipo de fallas en impresoras láser e inkjet.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20reparar%20mi%20impresora" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <h3>Reparación de Celulares y Tablets</h3>
+          <p>Pantallas rotas, baterías, conectores de carga y problemas de software en iOS y Android.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20reparar%20mi%20celular" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3>Recuperación de Datos</h3>
+          <p>Discos dañados, formateos accidentales, archivos borrados. Recuperamos lo que creías perdido.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20recuperar%20datos" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16,3 21,3 21,8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21,16 21,21 16,21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+          </div>
+          <h3>Armado de PC a Medida</h3>
+          <p>Diseñamos y armamos tu PC gamer, workstation o de oficina según tu presupuesto y necesidades.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20quiero%20armar%20una%20PC%20a%20medida" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <h3>Redes y Soporte a Domicilio</h3>
+          <p>Instalación de redes, WiFi, soporte técnico en tu empresa u hogar. Vamos a donde estés.</p>
+          <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20soporte%20a%20domicilio" class="service-card__cta" target="_blank">Consultá →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section section--alt" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Nuestra tienda</p>
+        <h2 class="section-title">Equipos y accesorios disponibles</h2>
+        <p class="section-subtitle">Conseguí lo que necesitás. Consultá disponibilidad, modelos y precios por WhatsApp.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">📱</div>
+          <h3>Celulares</h3>
+          <p>iPhone, Xiaomi Redmi, Motorola y Samsung</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">📲</div>
+          <h3>Tablets</h3>
+          <p>Para trabajo, estudio y entretenimiento</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">🔊</div>
+          <h3>Parlantes</h3>
+          <p>Portátiles y de escritorio, distintas potencias</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">🎧</div>
+          <h3>Auriculares</h3>
+          <p>Con cable, inalámbricos y para gaming</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">⌨️</div>
+          <h3>Teclados</h3>
+          <p>Mecánicos, de membrana e inalámbricos</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">🖱️</div>
+          <h3>Mouse</h3>
+          <p>Ópticos, inalámbricos y gaming</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">🎙️</div>
+          <h3>Micrófonos</h3>
+          <p>Para streaming, llamadas y grabación</p>
+        </div>
+        <div class="product-card" data-animate>
+          <div class="product-card__icon">📡</div>
+          <h3>Conexión a Internet</h3>
+          <p>Routers, antenas WiFi y dispositivos de red</p>
+        </div>
+      </div>
+      <div class="products-cta">
+        <a href="https://wa.me/5491151391997?text=Hola%2C%20quiero%20consultar%20disponibilidad%20de%20productos" class="btn btn--primary btn--lg" target="_blank">
+          Consultá disponibilidad por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Nuestros valores</p>
+        <h2 class="section-title">Por qué confiar en CompuPaunero</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card" data-animate>
+          <div class="why-card__num">01</div>
+          <h3>Diagnóstico rápido y honesto</h3>
+          <p>Revisamos tu equipo el mismo día y te explicamos exactamente qué tiene antes de cobrar un peso. Sin sorpresas.</p>
+        </div>
+        <div class="why-card" data-animate>
+          <div class="why-card__num">02</div>
+          <h3>Garantía por escrito</h3>
+          <p>Todos nuestros trabajos tienen garantía documentada. Si algo falla en el período garantizado, lo resolvemos sin costo.</p>
+        </div>
+        <div class="why-card" data-animate>
+          <div class="why-card__num">03</div>
+          <h3>+10 años de experiencia</h3>
+          <p>Más de una década reparando y vendiendo en Palermo. Conocemos cada componente y cada falla posible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">El proceso</p>
+        <h2 class="section-title">Reparar tu equipo es fácil</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step" data-animate>
+          <div class="step__num">1</div>
+          <h3>Contactanos</h3>
+          <p>Escribinos por WhatsApp o visitanos directamente en Cerviño 3480, Palermo. Sin turno previo.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step" data-animate>
+          <div class="step__num">2</div>
+          <h3>Diagnóstico gratuito</h3>
+          <p>Revisamos tu equipo sin costo y te presentamos el presupuesto con total claridad.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step" data-animate>
+          <div class="step__num">3</div>
+          <h3>Reparación y entrega</h3>
+          <p>Trabajamos rápido y con garantía. Te avisamos cuando está listo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Clientes satisfechos</p>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate>
+          <div class="stars">★★★★★</div>
+          <p>"Llevé mi notebook que no encendía y en el día me dieron el diagnóstico. En dos días estaba lista y con garantía. Excelente atención."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">MG</div>
+            <div>
+              <strong>María G.</strong>
+              <span>Palermo, CABA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="stars">★★★★★</div>
+          <p>"Me armaron la PC gamer dentro de mi presupuesto y me explicaron cada componente que eligieron. Muy profesionales y honestos."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">RL</div>
+            <div>
+              <strong>Rodrigo L.</strong>
+              <span>Villa Crespo, CABA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="stars">★★★★★</div>
+          <p>"Recuperaron todos mis archivos de un disco que se había caído. Creía que había perdido todo. Infinitamente agradecida."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">CF</div>
+            <div>
+              <strong>Carolina F.</strong>
+              <span>Recoleta, CABA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__glow"></div>
+    <div class="container cta-banner__inner" data-animate>
+      <h2>¿Tu computadora no enciende, va lenta o perdiste datos?</h2>
+      <p>Traela o llamanos. <span class="text-primary">Diagnóstico GRATIS.</span></p>
+      <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20ayuda%20con%20mi%20computadora" class="btn btn--white btn--lg" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Escribinos ahora por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Preguntas frecuentes</p>
+        <h2 class="section-title">Todo lo que necesitás saber</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿El diagnóstico tiene costo?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>No. El diagnóstico es completamente gratuito y sin compromiso. Te explicamos qué tiene tu equipo y te damos el presupuesto antes de empezar cualquier trabajo.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Cuánto tarda una reparación?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Depende del tipo de reparación. Las más comunes (limpieza, formateo, cambio de disco) se resuelven el mismo día o en 24 horas. Los trabajos más complejos pueden tomar 2-3 días hábiles.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Tienen garantía los trabajos?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sí, todos nuestros trabajos tienen garantía por escrito. La duración varía según el servicio realizado y los componentes utilizados.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Puedo llevar mi equipo sin turno?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Podés traer tu equipo directamente sin necesidad de turno previo durante nuestro horario de atención: Lunes a Viernes de 10 a 20hs y Sábados de 10 a 13hs.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Venden componentes sueltos?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Contamos con stock de procesadores, memorias RAM, discos SSD/HDD, placas madre, placas de video, periféricos y más. Consultá disponibilidad y precios por WhatsApp.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Trabajan con empresas?
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Ofrecemos soporte técnico para empresas con contratos de mantenimiento, asistencia prioritaria y factura. Contactanos para coordinar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO Y MAPA -->
+  <section class="section section--alt" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Dónde estamos</p>
+        <h2 class="section-title">Encontranos en Palermo</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-animate>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Dirección</strong>
+              <span class="mono">Cerviño 3480, Palermo, CABA</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.07 2.18a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <div>
+              <strong>Teléfono</strong>
+              <a href="tel:+5491151391997" class="mono">+54 9 11 5139-1997</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@compupaunero.com.ar" class="mono">info@compupaunero.com.ar</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            <div>
+              <strong>Horario</strong>
+              <span class="mono">Lun–Vie: 10:00 – 20:00hs<br>Sáb: 10:00 – 13:00hs</span>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="https://wa.me/5491151391997" class="btn btn--whatsapp" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Escribinos por WhatsApp
+            </a>
+            <a href="https://www.instagram.com/compupaunero" class="btn btn--ghost" target="_blank">Ver Instagram</a>
+          </div>
+        </div>
+        <div class="contact-map" data-animate>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.!2d-58.4185!3d-34.5788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCervi%C3%B1o%203480%2C%20Palermo%2C%20CABA!5e0!3m2!1ses!2sar!4v1234567890"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            title="Ubicación CompuPaunero"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="navbar__logo">
+          <img src="assets/logo.png" alt="CompuPaunero" class="logo-img" />
+        </a>
+        <p>Tu aliado tecnológico en Palermo. Reparamos, armamos y vendemos con honestidad.</p>
+        <div class="footer__social">
+          <a href="https://facebook.com/compupaunero" aria-label="Facebook" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://instagram.com/compupaunero" aria-label="Instagram" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/5491151391997" aria-label="WhatsApp" target="_blank">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Servicios</h4>
+        <a href="#servicios">Reparación de PCs</a>
+        <a href="#servicios">Reparación de Notebooks</a>
+        <a href="#servicios">Recuperación de Datos</a>
+        <a href="#servicios">Armado a Medida</a>
+        <a href="#servicios">Soporte a Domicilio</a>
+      </div>
+      <div class="footer__links">
+        <h4>Empresa</h4>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Información</a>
+      </div>
+      <div class="footer__links">
+        <h4>Contacto</h4>
+        <a href="tel:+5491151391997" class="mono">+54 9 11 5139-1997</a>
+        <a href="mailto:info@compupaunero.com.ar" class="mono">info@compupaunero.com.ar</a>
+        <span class="mono">Cerviño 3480, Palermo</span>
+        <span class="mono">Lun–Vie 10–20hs · Sáb 10–13hs</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <span>© 2025 CompuPaunero. Todos los derechos reservados.</span>
+        <a href="#">Términos y Condiciones</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp FAB -->
+  <a href="https://wa.me/5491151391997?text=Hola%2C%20necesito%20ayuda%20con%20mi%20computadora" class="whatsapp-fab" target="_blank" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>¿Necesitás ayuda?</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
